@@ -2,3 +2,8 @@ name: TovyVanish
 version: '${project.version}'
 main: org.github.tovy.tovyvanish.TovyVanish
 api-version: '1.18'
+commands:
+  vanish:
+    aliases: v
+    permission-message: "You cannot go into vanish"
+    permission: tovy.vanish.use

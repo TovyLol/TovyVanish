@@ -6,12 +6,8 @@ public final class TovyVanish extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        getCommand("vanish").setExecutor(new Vanishcmd());
+        System.out.println("TovyVanish has been loaded succesfully");
 
-    }
-
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
     }
 }
