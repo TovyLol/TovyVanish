@@ -41,6 +41,7 @@ public class Vanishcmd implements CommandExecutor {
                 vanished.remove(player.getUniqueId());
                 for (Player target : Bukkit.getOnlinePlayers()) {
                     target.showPlayer(player);
+                    player.sendMessage(ChatColor.BLUE + "You went out of vanish!");
 
                 }
                 player.sendTitle(ChatColor.BOLD.BLUE + "UnVanished", ChatColor.BLUE + "You are now unvanished!", 20 , 60 , 20);

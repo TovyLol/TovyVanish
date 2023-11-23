@@ -7,7 +7,7 @@ public final class TovyVanish extends JavaPlugin {
     @Override
     public void onEnable() {
         getCommand("vanish").setExecutor(new Vanishcmd());
-        System.out.println("TovyVanish has been loaded succesfully");
+        System.out.println("TovyVanish has been loaded succesfully!");
 
     }
 }
