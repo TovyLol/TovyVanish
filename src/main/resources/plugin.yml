@@ -1,0 +1,4 @@
+name: TovyVanish
+version: '${project.version}'
+main: org.github.tovy.tovyvanish.TovyVanish
+api-version: '1.18'
